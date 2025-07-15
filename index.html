@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="display-container"><input type="text" class="display" id="display" /></div>
+      <button onclick='clearDisplay()'>
+        <div class="refresh">C</div>
+      </button>
+      <button onclick="appendValue('/')"><div class="refresh">/</div></button>
+      <button onclick="appendValue('1')"><div class="number">1</div></button>
+      <button onclick="appendValue('2')"><div class="number">2</div></button>
+      <button onclick="appendValue('3')"><div class="number">3</div></button>
+      <button onclick="appendValue('4')"><div class="number">4</div></button>
+      <button onclick="appendValue('5')"><div class="number">5</div></button>
+      <button onclick="appendValue('6')"><div class="number">6</div></button>
+      <button onclick="appendValue('7')"><div class="number">7</div></button>
+      <button onclick="appendValue('8')"><div class="number">8</div></button>
+      <button onclick="appendValue('9')"><div class="number">9</div></button>
+      <button onclick="appendValue('0')"><div class="number">0</div></button>
+      <button onclick="appendValue('*')"><div class="operator">x</div></button>
+      <button onclick='calc()'>
+        <div class="operator">=</div>
+      </button>
+      <button onclick="appendValue('+')"><div class="operator">+</div></button>
+      <button onclick="appendValue('-')"><div class="operator">-</div></button>
+    </div>
+  </body>
+  <script src="./jac.js"></script>
+</html>
