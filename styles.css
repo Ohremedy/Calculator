@@ -49,7 +49,7 @@ body {
   grid-column: span 4;
 }
 .display {
-  width: 80%;
+  width: 100%;
   height: 100%;
   border-radius: 13px;
 }
@@ -78,6 +78,7 @@ input {
     width: 100%;
     align-self: center;
     row-gap: 5px;
+    box-sizing: border-box;
   }
   .input {
     font-size: 35px;
@@ -88,7 +89,10 @@ input {
   .operator {
     font-size: 25px;
   }
-  .refresh{
+  .refresh {
     font-size: 25px;
+  }
+  .display {
+    width: 272px;
   }
 }
