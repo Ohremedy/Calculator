@@ -82,6 +82,8 @@ input {
   }
   .input {
     font-size: 35px;
+    width: 90%;
+    max-width: 500px;
   }
   .number {
     font-size: 25px;
