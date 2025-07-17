@@ -75,7 +75,7 @@ input {
     font-size: 25px;
   }
   .container {
-    width: 100%;
+    width:fit-content;
     align-self: center;
     row-gap: 5px;
     box-sizing: border-box;
@@ -87,15 +87,58 @@ input {
   }
   .number {
     font-size: 25px;
+    width: 30px;
+    height: 30px;
   }
   .operator {
     font-size: 25px;
+    width: 30px;
+    height: 30px;
   }
   .refresh {
     font-size: 25px;
+    width: 30px;
+    height: 30px;
   }
   .display {
-    width:90%;
-    max-width: 200px;
+    width: 100%;
+    max-width: 250px;
   }
 }
+@media (max-width: 414px) {
+
+} body {
+    margin: -15px;
+    justify-content: center;
+    font-size: 25px;
+  }
+  .container {
+    width:fit-content;
+    align-self: center;
+    row-gap: 5px;
+    box-sizing: border-box;
+  }
+  .input {
+    font-size: 35px;
+    width: 90%;
+    max-width: 500px;
+  }
+  .number {
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+  }
+  .operator {
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+  }
+  .refresh {
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+  }
+  .display {
+    width: 100%;
+    max-width: 250px;
+  }
