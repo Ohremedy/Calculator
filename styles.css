@@ -95,6 +95,7 @@ input {
     font-size: 25px;
   }
   .display {
-    width: 272px;
+    width:90%;
+    max-width: 200px;
   }
 }
