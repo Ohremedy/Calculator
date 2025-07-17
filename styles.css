@@ -72,8 +72,8 @@ input {
     max-width: 500px;
   }
   .display {
-    width: 100%;
-    max-width: 768px;
+    width: 90%;
+    max-width: 750px;
   }
   @media (max-width: 320px) {
     body {
@@ -108,8 +108,8 @@ input {
       height: 30px;
     }
     .display {
-      width: 100%;
-      max-width: 320px;
+      width: 90%;
+      max-width: 300px;
     }
   }
   @media (max-width: 414px) {
@@ -145,16 +145,16 @@ input {
       height: 40px;
     }
     .display {
-      width: 100%;
-      max-width: 414px;
+      width: 90%;
+      max-width: 390px;
     }
   }
 }
 
 @media (max-width: 375px) {
   .display {
-    width: 100%;
-    max-width: 375px;
+    width: 90%;
+    max-width: 355px;
   }
   .number {
     font-size: 25px;
